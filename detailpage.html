@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="frontend/style/detail.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="frontend/libraries/css/bootstrap.css">
+    <title>Detail Page</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary rounded fixed-top" aria-label="Thirteenth navbar example">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+            <div class="container-fluid col-lg-3">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-dark" style="background-color: #FFCECE;" type="submit">Search</button>
+                </form>
+              </div>
+            <a class="navbar-brand justify-content-lg-center" href="index.html">AAMONDINI</a>
+            <ul class="navbar-nav col justify-content-lg-end">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: #000;" aria-current="page" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                </svg>Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #000;" href="login.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                </svg>Hi, Lily</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #000;" href="bookingpage1.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg>Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Tutup Header -->
+  <!-- Popular Product -->
+  <section class="popular-products">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+         
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <a href="bookingpage1.html" class="component-products d-block">
+            <div class="products-img mb-4">
+              <img src="frontend/images/so scandal parfume.jpeg" class="img-fluid">
+            </div>
+            <div class="d-grid col-6 mx-auto">
+                <div class="alert alert btn-oval" role="alert"><b>So Scandal-Eau de parfum <br>Rp 1.350.000</b></div>
+              </div>
+               <center><span class="badge bg-white takaran">100 ML</span></center>
+                <div class="products-text mb-2">
+                    Parfume So Scandal Eau de Parfum
+                    Jean Paul Gaultier Feminino
+                </div>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="bookingpage1.html" class="component-products d-block">
+            <div class="products-img mb-4">
+              <img src="frontend/images/product4.png" class="img-fluid">
+        </div>
+        <div class="d-grid col-6 mx-auto">
+            <div class="alert alert btn-oval" role="alert"><b>Pure XS - Paco Rabanne
+               <br> Rp 1.100.000 </b></div>
+          </div>
+           <center><span class="badge bg-white takaran">80 ML</span></center>
+            <div class="products-text mb-2">
+                A new feminine perfume by Paco Rabanne 
+                incarnated by the incandescent Emily Ratajkowski.
+            </div>
+         
+
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="bookingpage1.html" class="component-products d-block">
+            <div class="products-img mb-4">
+              <img src="frontend/images/product-3.png" class="img-fluid" style="padding-left: 2rem;">
+            </div>
+            <div class="d-grid col-6 mx-auto">
+                <div class="alert alert btn-oval" role="alert"><b>Victoria’s Secret Bombshell
+                   <br>Rp 1.450.000</b></div>
+              </div>
+               <center><span class="badge bg-white takaran">100 ML</span></center>
+                <div class="products-text mb-2">There's a Bombshell in every woman. 
+                    Confident & bold, America's No . 1 Fragrance* is 
+                    a sparkling mix of fresh-cut peonies and afternoon sun.
+                </div>
+             
+          </a>
+        </div>
+            <hr>
+            <div class="col-4">
+                <a href="bookingpage1.html" class="component-products d-block">
+                  <div class="products-img mb-4">
+                    <img src="frontend/images/product4.png" class="img-fluid">
+                  </div>
+                  <div class="d-grid col-6 mx-auto">
+                      <div class="alert alert btn-oval" role="alert"><b>Dolce & Gabanna
+                        <br>Rp 1.275.000</b></div>
+                    </div>
+                     <center><span class="badge bg-white takaran">30 ML</span></center>
+                      <div class="products-text mb-2">
+                        The One was launched by the design house 
+                        of Dolce & Gabbana It is recommended for casual wear
+                      </div>
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="bookingpage1.html" class="component-products d-block">
+                  <div class="products-img mb-4">
+                    <img src="frontend/images/product5.png" class="img-fluid">
+              </div>
+              <div class="d-grid col-6 mx-auto">
+                  <div class="alert alert btn-oval" role="alert"><b>Perfect Marc Jacobs
+                     <br> Rp 1.725.000 </b></div>
+                </div>
+                 <center><span class="badge bg-white takaran">100 ML</span></center>
+                  <div class="products-text mb-2">
+                    Women's perfume with a new fragrance that 
+                    is cheerful, modern and bright
+                  </div>
+               
+      
+                </a>
+              </div>
+              <div class="col-4">
+                <a href="bookingpage1.html" class="component-products d-block">
+                  <div class="products-img mb-4">
+                    <img src="frontend/images/product6.png" class="img-fluid" style="padding-left: 2rem;">
+                  </div>
+                  <div class="d-grid col-6 mx-auto">
+                      <div class="alert alert btn-oval" role="alert"><b>Valentino
+                         <br>Rp 1.300.000</b></div>
+                    </div>
+                     <center><span class="badge bg-white takaran">30 ML</span></center>
+                      <div class="products-text mb-2">A stunning floriental creation from Sonia Constant and Antoine 
+                        Maisondieu, it bursts into life with grapefruit, bergamot, and blackcurrant accord
+                      </div>
+                </a>
+              </div>
+                  <hr>
+      
+      </div>
+    </div>
+</section>
+
+ <!-- Hero Section -->
+ <section class="hero-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6" style="margin-top: 250px;">
+          <h1>ONE OF THE BEST <br> PARFUME 2023!</h1>
+          <p>If you haven’t already tried our fragrances
+            have a look at our Gifts and discount page
+            and treat yourself Today!</p>
+          <div class="btn-cta">
+            <a href="bookingpage1.html" class="btn btn-light">Shop Now </a>
+          </div>
+        </div>
+        <div class="col-6">
+          <img src="frontend/images/perfect mac jacobs.jpeg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Tutup Hero Section -->
+  <!-- Tutup Popular Product -->
+
+  <!-- footer -->
+  <footer>
+    <div class="footer">
+    <div class="copyright">
+      <p>AAMONDINI. 2023 All Right Reserved</p>
+    </div>
+  </footer>
+  <!-- tutup footer -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
+<script src="frontend/libraries/js/bootstrap.js"></script>   
+</body>
+</html>

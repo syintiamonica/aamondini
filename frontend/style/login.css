@@ -1,0 +1,45 @@
+
+/* footer */
+.help{
+    width: 105px;
+    text-align: center;
+    height: 110px;
+}
+.palace{
+    margin-left: 155px;
+    text-align: center;
+    height: 110px;
+}
+.service{
+    margin-left: 130px;
+    text-align: center;
+    height: 110px;
+}
+
+.follow{
+    margin-top: 40px;
+    color: #FFCECE;
+    text-align: center;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+
+}
+.copyright{
+    width: 1440px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background: #FFCECE;
+    text-align: center;
+}
+.copyright p{
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* tutup footer */
